@@ -58,7 +58,7 @@ def main(
 
     # run commands
     if datasets is None:
-        datasets = [d for d in list_datasets() if d.startswith("syntaxgym/")]
+        datasets = [d for d in list_datasets() if d.startswith("filler_gap/")]
     print(len(datasets))
 
     # start/end
